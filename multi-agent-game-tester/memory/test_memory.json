@@ -1,0 +1,9 @@
+{
+  "previous_runs": [
+    {
+      "run_id": "run_001",
+      "common_failures": ["network lag", "slow lobby load"],
+      "success_rate": 0.85
+    }
+  ]
+}

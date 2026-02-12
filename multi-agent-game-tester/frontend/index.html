@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Game Tester POC</title>
+</head>
+<body>
+    <h2>Multi-Agent Game Tester</h2>
+    <button onclick="runTests()">Run Tests</button>
+    <pre id="output"></pre>
+
+    <script>
+        function runTests() {
+            fetch("http://127.0.0.1:8000/run", { method: "POST" })
+                .then(res => res.json())
+                .then(data => {
+                    document.getElementById("output").innerText =
+                        JSON.stringify(data, null, 2);
+                });
+        }
+    </script>
+</body>
+</html>

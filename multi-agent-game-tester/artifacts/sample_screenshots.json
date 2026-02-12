@@ -1,0 +1,19 @@
+{
+  "screenshots": [
+    {
+      "id": "login_page",
+      "path": "artifacts/screens/login.png",
+      "description": "Login screen loaded successfully"
+    },
+    {
+      "id": "game_lobby",
+      "path": "artifacts/screens/lobby.png",
+      "description": "Multiplayer lobby rendered"
+    },
+    {
+      "id": "game_start",
+      "path": "artifacts/screens/game_start.png",
+      "description": "Game session started without errors"
+    }
+  ]
+}
